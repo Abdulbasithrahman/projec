@@ -1,0 +1,12 @@
+.text-box{
+    width: 400px;
+    color: white;
+    margin-top: 15px;
+}
+@media screen and (max-width: 300px) {
+    .text-box{
+        width: 280px;
+        color: white;
+        margin-top: 15px;
+    }
+}

@@ -1,0 +1,24 @@
+.History{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+    font-size: 30px;
+    font-weight: 800;
+    background: -webkit-linear-gradient(#00fa9a,#0000ff );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media screen and (max-width:300px) {
+    .History{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:20px;
+        font-size: 15px;
+        font-weight: 800;
+        background: -webkit-linear-gradient(#00fa9a,#0000ff );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
